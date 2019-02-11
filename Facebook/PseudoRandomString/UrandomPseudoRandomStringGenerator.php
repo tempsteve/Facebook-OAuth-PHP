@@ -27,7 +27,6 @@ use Facebook\Exceptions\FacebookSDKException;
 
 class UrandomPseudoRandomStringGenerator implements PseudoRandomStringGeneratorInterface
 {
-
     use PseudoRandomStringGeneratorTrait;
 
     /**

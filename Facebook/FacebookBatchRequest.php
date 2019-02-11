@@ -243,7 +243,6 @@ class FacebookBatchRequest extends FacebookRequest implements IteratorAggregate,
      */
     public function requestEntityToBatchArray(FacebookRequest $request, $options = null, $attachedFiles = null)
     {
-
         if (null === $options) {
             $options = [];
         } elseif (!is_array($options)) {
